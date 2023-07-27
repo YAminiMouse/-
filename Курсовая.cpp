@@ -211,7 +211,6 @@ double result_recursive_descent(char* our_function, double x, bool* check)
 void help(HANDLE hConsole)
 {
     system("cls");
-    printf("Hello,world");
     SetConsoleTextAttribute(hConsole, 05);
     printf("Программу разработала студентка ИГЭУ им. Ленина гр. 1-42 Самойлова А. И.\n\n");
     SetConsoleTextAttribute(hConsole, 04);
